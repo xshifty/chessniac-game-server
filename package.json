@@ -1,0 +1,19 @@
+{
+  "name": "chessniac-game-server",
+  "version": "0.0.1",
+  "main": "src/app/index.js",
+  "author": "xshifty",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.2.7",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "NODE_PATH=./src npx nodemon ./src/app/index.js",
+    "test": "NODE_PATH=./src npx jest --coverage"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
